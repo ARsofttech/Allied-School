@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.studentActivities.StudentCallenderActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/bg_color">
+
+        <ImageView
+            android:id="@+id/iv_s_callender_back"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Settings"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sixteen_sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/callender" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/callender" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/callender" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/callender" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/callender" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

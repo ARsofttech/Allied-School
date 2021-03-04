@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginVertical="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:background="@color/bg_color">
+        <TextView
+            android:id="@+id/tv_holiday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="National day"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_holiday">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:background="@drawable/bg_holiday_blut"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Monday"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fourteen_sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="03"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fourteen_sp"/>
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+</FrameLayout>
