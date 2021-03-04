@@ -65,7 +65,7 @@ public class LoginActivity extends AppCompatActivity {
 //                    finish();
                     tvId.setText("");
                 }else {
-                    tvId.setError("Please enter id, Id should be start from pkk or tcr");
+                    tvId.setError("Please enter id, Id should be start from PKK or TCR");
                 }
             }
         });
