@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext(), StudentDashboardActivity.class));
                     tvId.setText("");
 //                    finish();
-                } else {
+                } else if (id.substring(0, 3).equalsIgnoreCase("tcr")){
                     startActivity(new Intent(getApplicationContext(), TeacherDashboardActivity.class));
 //                    finish();
                     tvId.setText("");
