@@ -64,6 +64,8 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext(), TeacherDashboardActivity.class));
 //                    finish();
                     tvId.setText("");
+                }else {
+                    tvId.setError("Please enter id, Id should be start from pkk or tcr");
                 }
             }
         });
